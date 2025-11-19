@@ -1,11 +1,97 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Personal Webpage</title>
+  <style>
+    header {
+       background-color: #FF69B4;
+       color: white;
+       text-align: center;
+       padding: 10px;
+       }
+    .about {
+       width: 60%;
+       margin: 20px auto;
+       text-align: center;
+       }
+    img {
+       width: 125px;
+       border-radius: 50%;
+       border: 5px solid white;
+       margin-top: 10px;
+       }
+     body {
+       background-color: pink;
+       font-family: Garamond;
+       color: white;
+       text-align: center;
+       }
+     h1 {
+       color: white;
+       font-size: 36px;
+       }
+     p {
+       font-size: 20px;
+       }
+     .table-style1 th, .table-style1 td {
+       border: 3px solid white;
+       padding: 10px;
+       text-align: center;
+       }
+     .table-style1 {
+       width: 80%;
+       margin: 20px auto;
+       border-collapse: collapse;
+       border: 3px white;
+       }
+     .table-style1 th {
+       background-color: #FF69B4;
+       color: white;
+       }
+     .table-style1 td {
+       background-color: pink;
+       color: white;
+       }
+     .table-style2 {
+       width: 60%;
+       margin: 20px auto;
+       border-collapse: collapse;
+       border: 3px white;
+       }
+     .table-style2 th, .table-style2 td {
+       border: 3px solid white;
+       padding: 10px;
+       text-align: center;
+       }
+     .table-style2 th {
+       background-color: #FF69B4;
+       color: white;
+       }
+     .table-style2 td {
+       background-color: pink;
+       color: white;
+       }
+     div.mycontainer {
+       width: 66%;
+       overflow: auto;
+       font-size: 12px;
+       }
+     div.mycontainer div {
+       width: 50%;
+       float: left;
+       }
+     .video {
+       width: 45%;
+       margin: 10px auto;
+       text-align: center;
+       border: 10px solid white;
+       }
+   </style>
+  <title>Lahpraaaas Lair</title>
 </head>
 <body>
 <header>
-  <h1>Welcome to My Personal Webpage</h1>
+  <h1>Welcome to My Lair</h1>
   <p>This is a simple example of an HTML and CSS personal webpage.</p>
   <pre>
   Lah
@@ -13,8 +99,8 @@
   Libra
   </pre>
 </header>
-<section>
-  <p>Check out my favorite website:
+<section class="about">
+  <p>My favorite website:
   <a href="https://www.dropout.tv/" target=_blank'>Dropout!</a>
     </p>
   <a href="mailto:lahpraaaas@gmail.com" target="_blank">lahpraaaas@gmail.com</a>
@@ -25,7 +111,7 @@
 </section>
 <hr>
    <h2>My Hobbies</h2>
-   <table>
+   <table class="table-style1">
       <tr>
          <th>Hobby</th>
          <th>Hours/Week</th>
@@ -41,7 +127,7 @@
       <tr>
     </table>
  <h2>My Favorite Movies</h2>
-   <table>
+   <table class="table-style2">
       <tr>
          <th>Movie</th>
          <th>Year</th>
@@ -56,22 +142,31 @@
       </tr>
       <tr>
     </table>
+<div class="mycontainer">
+<div>
  <h2>My Favorite Foods</hr>
- <ul>
+ <ul class="list-style1">
    <li>Tteokbokki</li>
    <li>Pho</li>
    <li>Papaya salad</li>
  </ul>
-
+</div>
+</div>
+<div class="mycontainer">
+<div>
  <h2>My Favorite Drinks</hr>
- <ul>
+ <ul class="list-style1">
    <li>Strawberry Calpico</li>
    <li>Pepsi</li>
    <li>Earl Grey Milktea</li>
+ </ul>
+</div>
+</div>
+<section class="video">
  <h2>My Favorite Video</h2>
  <video width="480" height="360" controls>
     <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Zenitsu.mp4?raw=True">
  </video>
- <iframe src="https://www.youtube.com/embed/zGk-azQ0A2U" width="420" height="315" style="border:none;"></iframe>
+  <iframe src="https://www.youtube.com/embed/zGk-azQ0A2U" width="420" height="315" style="border:none;"></iframe>
 </body>
 </html>
