@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -109,16 +110,23 @@
       background-color: #FF69B4;
       }
    </style>
-  <title>Why So Serious</title>
+  <title>Don't Worry Be Happy</title>
 </head>
 <body>
 <header>
   <h1>I'm So Happy You're Here!!</h1>
-  <p>This is a simple example of an HTML and CSS personal webpage.</p>
+  <h2> HAPPY(adj.) happier, happiest</h2>
+  <pre> (as defined by Merriam Webster dictionary)
+  1A: enjoying or characterized by well-being and contenment
+  1B: expressing, reflecting, or suggestive of happiness
+  1C: glad, pleased
+  1D: very willing to do something
+  1E: having or marked by an atmosphere of good fellowship: friendly</pre>
   <pre>
-  Lah
-  Introvert
-  Libra
+  How would you categorize your level of happiness? 
+  What are a few areas in your life that would effect your level of happiness?
+  Income, employment, family, location, etc.
+  How do you think you would rate as the rest of the world? Keep scrolling if you would like to find out. 
   </pre>
   <a href="test.html" style="color:black";target="_blank";>
     <button class="button-transition">New Page Link</button>
@@ -129,10 +137,6 @@
   <a href="https://www.dropout.tv/" target=_blank'>Dropout!</a>
     </p>
   <a href="mailto:lahpraaaas@gmail.com" target="_blank">lahpraaaas@gmail.com</a>
-</section>
-<section>  
-<a href="https://www.instagram.com/lahprasss"target="_blank">
-    <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" width="104" height="142" title="Picture Title"></a>
 </section>
 <hr>
    <h2>My Hobbies</h2>
@@ -203,5 +207,9 @@
       <input type="submit" value="Submit">
       </form>
       <br><br>
+<section>  
+<a href="https://www.gmail.com/lahprasss"target="_blank">
+    <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" width="104" height="142" title="Picture Title"></a>
+</section>
 </body>
 </html>
