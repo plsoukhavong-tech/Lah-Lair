@@ -1,1 +1,207 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    header {
+       background-color: #FF69B4;
+       color: white;
+       text-align: center;
+       padding: 10px;
+       }
+    .about {
+       width: 60%;
+       margin: 20px auto;
+       text-align: center;
+       }
+    img {
+       width: 125px;
+       border-radius: 50%;
+       border: 5px solid white;
+       margin-top: 10px;
+       }
+     body {
+       background-color: pink;
+       font-family: Garamond;
+       color: white;
+       text-align: center;
+       }
+     h1 {
+       color: white;
+       font-size: 36px;
+       }
+     p {
+       font-size: 20px;
+       }
+     .table-style1 th, .table-style1 td {
+       border: 3px solid white;
+       padding: 10px;
+       text-align: center;
+       }
+     .table-style1 {
+       width: 80%;
+       margin: 20px auto;
+       border-collapse: collapse;
+       border: 3px white;
+       }
+     .table-style1 th {
+       background-color: #FF69B4;
+       color: white;
+       }
+     .table-style1 td {
+       background-color: pink;
+       color: white;
+       }
+     .table-style2 {
+       width: 60%;
+       margin: 20px auto;
+       border-collapse: collapse;
+       border: 3px white;
+       }
+     .table-style2 th, .table-style2 td {
+       border: 3px solid white;
+       padding: 10px;
+       text-align: center;
+       }
+     .table-style2 th {
+       background-color: #FF69B4;
+       color: white;
+       }
+     .table-style2 td {
+       background-color: pink;
+       color: white;
+       }
+     .list-style1 {
+       list-style-type: square;
+       color: white;
+       text-align: left;
+       margin: 20px;
+       }
+     .list-style2 {
+      list-style-type: square;
+      color: white;
+      text-align: left;
+      margin: 20px;
+      }
+     div.mycontainer {
+       width: 66%;
+       overflow: auto;
+       font-size: 18px;
+       }
+     div.mycontainer div {
+       width: 50%;
+       float: left;
+       }
+     .video {
+       width: 45%;
+       margin: 10px auto;
+       text-align: center;
+       border: 10px solid white;
+       }
+    .button-transition {
+      background-color: white;
+      color: pink;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+      border: none;
+      cursor: pointer;
+      }
+    .button-transition:hover {
+      background-color: #FF69B4;
+      }
+   </style>
+  <title>Lahpraaaas Lair</title>
+</head>
+<body>
+<header>
+  <h1>Welcome to My Lair</h1>
+  <p>This is a simple example of an HTML and CSS personal webpage.</p>
+  <pre>
+  Lah
+  Introvert
+  Libra
+  </pre>
+  <a href="test.html" style="color:black";target="_blank";>
+    <button class="button-transition">New Page Link</button>
+  </a>
+</header>
+<section class="about">
+  <p>My favorite website:
+  <a href="https://www.dropout.tv/" target=_blank'>Dropout!</a>
+    </p>
+  <a href="mailto:lahpraaaas@gmail.com" target="_blank">lahpraaaas@gmail.com</a>
+</section>
+<section>  
+<a href="https://www.instagram.com/lahprasss"target="_blank">
+    <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" width="104" height="142" title="Picture Title"></a>
+</section>
+<hr>
+   <h2>My Hobbies</h2>
+   <table class="table-style1">
+      <tr>
+         <th>Hobby</th>
+         <th>Hours/Week</th>
+      </tr>
+      <tr>
+         <td>Watching anime/Community</td>
+         <td>During my freetime</td>
+      </tr>
+      <tr>
+         <td>Listening to Creepypasta/Crime Podcasts</td>
+         <td>During the rest of my freetime</td>
+      </tr>
+      <tr>
+         <td>Not Allowing the Existential Dread to Take Over</td>
+         <td>All the Time</td>
+      </tr><tr>
+    </table>
+ <h2>My Favorite Movies</h2>
+   <table class="table-style2">
+      <tr>
+         <th>Movie</th>
+         <th>Year</th>
+      </tr>
+      <tr>
+         <td>Fifth Element</td>
+         <td>1997</td>
+      </tr>
+      <tr>
+         <td>Princess Mononoke</td>
+         <td>1997</td>
+      </tr>
+      <tr>
+         <td>Oldboy</td>
+         <td>2003</td>
+      </tr>
+      <tr>
+    </table>
+<div class="mycontainer">
+<div>
+ <h2>My Favorite Foods</h2>
+ <ul class="list-style1">
+   <li>Tteokbokki</li>
+   <li>Pho</li>
+   <li>Papaya salad</li>
+ </ul>
+</div>
+<div>
+ <h2>My Favorite Drinks</h2>
+ <ul class="list-style2">
+   <li>Strawberry Calpico</li>
+   <li>Pepsi</li>
+   <li>Earl Grey Milktea</li>
+ </ul>
+</div>
+</div>
+<section class="video">
+ <h2>My Favorite Video</h2>
+ <video width="480" height="360" controls>
+    <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Zenitsu.mp4?raw=True">
+ </video>
+  <iframe src="https://www.youtube.com/embed/zGk-azQ0A2U" width="420" height="315" style="border:none;"></iframe>
+<label for="bio"> Have you enjoyed your visit:</label><label<br>
+    <textarea id="bio" rows="4" cols="40"></textarea>
+      <input type="submit" value="Submit">
+      </form>
+      <br><br>
+</body>
+</html>
