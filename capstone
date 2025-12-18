@@ -1,214 +1,213 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Don't Worry Be Happy 😊</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
   <style>
+    body {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+                        url('https://raw.githubusercontent.com/plsoukhavong-tech/Lah-Lair/main/Happy%20Face%20BG.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      margin: 0;
+      color: #FA8072;
+      font-family: sans-serif;
+    }
+    .main-wrapper {
+      background-color: rgba(255, 255, 255, 0.85); 
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px;
+      min-height: 100vh;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
     header {
-       background-color: #FF69B4;
-       color: white;
-       text-align: center;
-       padding: 10px;
-       }
-    .about {
-       width: 60%;
-       margin: 20px auto;
-       text-align: center;
-       }
-    img {
-       width: 125px;
-       border-radius: 50%;
-       border: 5px solid white;
-       margin-top: 10px;
-       }
-     body {
-       background-color: pink;
-       font-family: Garamond;
-       color: white;
-       text-align: center;
-       }
-     h1 {
-       color: white;
-       font-size: 36px;
-       }
-     p {
-       font-size: 20px;
-       }
-     .table-style1 th, .table-style1 td {
-       border: 3px solid white;
-       padding: 10px;
-       text-align: center;
-       }
-     .table-style1 {
-       width: 80%;
-       margin: 20px auto;
-       border-collapse: collapse;
-       border: 3px white;
-       }
-     .table-style1 th {
-       background-color: #FF69B4;
-       color: white;
-       }
-     .table-style1 td {
-       background-color: pink;
-       color: white;
-       }
-     .table-style2 {
-       width: 60%;
-       margin: 20px auto;
-       border-collapse: collapse;
-       border: 3px white;
-       }
-     .table-style2 th, .table-style2 td {
-       border: 3px solid white;
-       padding: 10px;
-       text-align: center;
-       }
-     .table-style2 th {
-       background-color: #FF69B4;
-       color: white;
-       }
-     .table-style2 td {
-       background-color: pink;
-       color: white;
-       }
-     .list-style1 {
-       list-style-type: square;
-       color: white;
-       text-align: left;
-       margin: 20px;
-       }
-     .list-style2 {
-      list-style-type: square;
-      color: white;
-      text-align: left;
-      margin: 20px;
-      }
-     div.mycontainer {
-       width: 66%;
-       overflow: auto;
-       font-size: 18px;
-       }
-     div.mycontainer div {
-       width: 50%;
-       float: left;
-       }
-     .video {
-       width: 45%;
-       margin: 10px auto;
-       text-align: center;
-       border: 10px solid white;
-       }
+      background-color: #F5B027;
+      color: white; 
+      text-align: center;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-family: 'Gochi Hand', cursive;
+      font-size: 55px;
+      margin: 0;
+    }
+    header h2 {
+      font-family: 'Gochi Hand', cursive;
+      font-size: 30px;
+    }
+    .table-container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+    .table-box {
+      text-align: center;
+    }
+    .table-box h3 {
+      font-family: 'Gochi Hand', cursive;
+      font-size: 32px;
+      color: #FA8072;
+    }
+    table {
+      border-collapse: collapse;
+      border: 3px solid white;
+      width: 320px;
+    }
+    th {
+      background-color: #F5B027; 
+      color: white;             
+      padding: 12px;
+      border: 2px solid white;
+      font-family: 'Gochi Hand', cursive;
+      font-size: 24px;
+    }
+    td {
+      background-color: #FA8072; 
+      color: white;             
+      padding: 10px;
+      border: 1px solid white;
+      text-align: center;
+      font-size: 18px;
+    }
+    h2, h3 {
+      font-family: 'Gochi Hand', cursive;
+    }
+    .list-section {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
     .button-transition {
       background-color: white;
-      color: pink;
-      padding: 10px 20px;
-      transition: background-color 0.3s ease;
+      color: #FA8072;
+      padding: 12px 25px;
+      font-weight: bold;
       border: none;
+      border-radius: 5px;
       cursor: pointer;
-      }
+      transition: 0.3s;
+      font-family: sans-serif;
+    }
     .button-transition:hover {
-      background-color: #FF69B4;
-      }
-   </style>
-  <title>Don't Worry Be Happy :)</title>
+      background-color: #FA8072;
+      color: white;
+    }
+    .video-box {
+      text-align: center;
+      margin-top: 40px;
+      border: 10px solid white;
+      padding: 15px;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    textarea {
+      border: 2px solid #FA8072;
+      color: #FA8072;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>I'm So Happy You're Here!!</h1>
-  <h2> HAPPY (adj.) happier, happiest</h2>
-  <h4> (as defined by Merriam-Webster dictionary)</h4>
-  <pre>1A: enjoying or characterized by well-being and contenment
-  1B: expressing, reflecting, or suggestive of happiness
-  1C: glad, pleased
-  1D: very willing to do something
-  1E: having or marked by an atmosphere of good fellowship: friendly</pre>
-  <pre>
-  How would you categorize your level of happiness? 
-  What are a few areas in your life that would effect your level of happiness?
-  Income, employment, family, location, pets, hobbies?
-  How do you think you would rate as the rest of the world? Keep scrolling if you would like to find out. 
-  </pre>
-  <a href="test.html" style="color:black";target="_blank";>
-    <button class="button-transition">New Page Link</button>
-  </a>
-</header>
-<hr>
-   <h1> Some things that bring me joy
-   <h2>My Hobbies</h2>
-   <table class="table-style1">
-      <tr>
-         <th>Hobby</th>
-         <th>Hours/Week</th>
-      </tr>
-      <tr>
-         <td>Watching anime/Community/Bob's Burgers</td>
-         <td>During my freetime</td>
-      </tr>
-      <tr>
-         <td>Listening to Creepypasta/Crime Podcasts</td>
-         <td>During the rest of my freetime</td>
-      </tr>
-      <tr>
-         <td>Not Allowing the Existential Dread to Take Over</td>
-         <td>All the Time</td>
-      </tr><tr>
-    </table>
- <h2>My Favorite Movies</h2>
-   <table class="table-style2">
-      <tr>
-         <th>Movie</th>
-         <th>Year</th>
-      </tr>
-      <tr>
-         <td>Fifth Element</td>
-         <td>1997</td>
-      </tr>
-      <tr>
-         <td>Almost anything made by Studio Ghibli</td>
-         <td>1986-Present</td>
-      </tr>
-      <tr>
-         <td>Oldboy</td>
-         <td>2003</td>
-      </tr>
-      <tr>
-    </table>
-<div class="mycontainer">
-<div>
- <h2>My Favorite Foods</h2>
- <ul class="list-style1">
-   <li>Tteokbokki</li>
-   <li>Fried Chicken</li>
-   <li>Papaya salad</li>
- </ul>
+
+<div class="main-wrapper">
+  <header>
+    <h1>I'm So Happy You're Here!!</h1>
+    <h2>✨HAPPY✨</2> 
+<h3>(adj.) happier, happiest</h3>
+    <pre style="white-space: pre-wrap; font-family: sans-serif; font-size: 14px;">
+enjoying or characterized by well-being and contentment or 
+expressing, reflecting, or suggestive of happiness
+
+Lets see how "The Land of the Free" compares to the rest of the world ...
+    </pre>
+    <a href="https://public.tableau.com/authoring/LahWorldHappiness2015-2017/Sheet2#1" target="_blank">
+      <button class="button-transition">HOW DID WE DO?</button>
+    </a>
+  </header>
+  <section style="text-align: center;">
+    <h2 style="font-size: 40px;">Get to Know Me</h2>
+    <div class="list-section">
+      <div>
+        <h3>My Favorite Foods</h3>
+        <ul style="text-align: left;">
+          <li>Tteokbokki</li>
+          <li>Fried Chicken</li>
+          <li>Papaya salad</li>
+        </ul>
+      </div>
+      <div>
+        <h3>My Favorite Drinks</h3>
+        <ul style="text-align: left;">
+          <li>Strawberry Calpico</li>
+          <li>Pepsi</li>
+          <li>Jasmine Earl Grey Milktea</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="table-container">
+    <div class="table-box">
+      <h3>My Hobbies</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Hobby</th>
+            <th>Hours/Week</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Watching Community</td><td>5</td></tr>
+          <tr><td>Fighting theExstistential           Dread</td><td>10</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table-box">
+      <h3>My Favorite Movies</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Movie</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Any Studio Ghibli Movie</td><td>1986-</td></tr>
+          <tr><td>The Fifth Element</td><td>1997</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div style="text-align: center;">
+    <div class="video-box">
+      <h2 style="margin-top: 0;">And now a laugh break...</h2>
+      <video width="480" height="360" controls>
+        <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Dad%20Joke.mp4?raw=True">
+      </video>
+    </div>
+    <br><br>
+    <textarea id="bio" rows="4" cols="45" placeholder="Share something that makes you happy..."></textarea>
+    <br>
+    <input type="submit" value="Submit" class="button-transition" style="border: 1px solid #FA8072; margin-top: 10px;">
+  </div>
+  <footer style="text-align: center; margin-top: 60px; padding-bottom: 20px;">
+    <a href="https://www.instagram.com/lahprasss" target="_blank">
+      <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" title="💛" width="120" style="border-radius: 50%; border: 5px solid white;">
+    </a>
+    <p style="margin-top: 15px;">
+      <a href="mailto:lahpraaaas@gmail.com" style="color: #FA8072; text-decoration: none; font-weight: bold;">lahpraaaas@gmail.com</a>
+    </p>
+  </footer>
 </div>
-<div>
- <h2>My Favorite Drinks</h2>
- <ul class="list-style2">
-   <li>Strawberry Calpico</li>
-   <li>Pepsi</li>
-   <li>Jasmine Earl Grey Milktea</li>
- </ul>
-</div>
-</div>
-<section class="video">
- <h2>And now a laugh break ...</h2>
- <video width="480" height="360" controls>
-    <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Dad%20Joke.mp4?raw=True">
- </video>
-  <video width="480" height="360" controls>
-    <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Dad%20Joke.mp4?raw=True">
- </video>
-    <textarea id="bio" rows="4" cols="40"></textarea>
-      <input type="submit" value="Submit">
-      </form>
-      <br><br>
-<section>  
-<section>  
-<a href="https://www.instagram.com/lahprasss"target="_blank">    <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" width="104" height="142" title="A Peek into my Little World"></a>
-<section class="about">
-  <a href="mailto:lahpraaaas@gmail.com" target="_blank">lahpraaaas@gmail.com</a>
-</section>
-</section>
+
 </body>
 </html>
