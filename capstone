@@ -110,14 +110,14 @@
       background-color: #FF69B4;
       }
    </style>
-  <title>Don't Worry Be Happy</title>
+  <title>Don't Worry Be Happy :)</title>
 </head>
 <body>
 <header>
   <h1>I'm So Happy You're Here!!</h1>
-  <h2> HAPPY(adj.) happier, happiest</h2>
-  <pre> (as defined by Merriam Webster dictionary)
-  1A: enjoying or characterized by well-being and contenment
+  <h2> HAPPY (adj.) happier, happiest</h2>
+  <h4> (as defined by Merriam-Webster dictionary)</h4>
+  <pre>1A: enjoying or characterized by well-being and contenment
   1B: expressing, reflecting, or suggestive of happiness
   1C: glad, pleased
   1D: very willing to do something
@@ -125,20 +125,15 @@
   <pre>
   How would you categorize your level of happiness? 
   What are a few areas in your life that would effect your level of happiness?
-  Income, employment, family, location, etc.
+  Income, employment, family, location, pets, hobbies?
   How do you think you would rate as the rest of the world? Keep scrolling if you would like to find out. 
   </pre>
   <a href="test.html" style="color:black";target="_blank";>
     <button class="button-transition">New Page Link</button>
   </a>
 </header>
-<section class="about">
-  <p>My favorite website:
-  <a href="https://www.dropout.tv/" target=_blank'>Dropout!</a>
-    </p>
-  <a href="mailto:lahpraaaas@gmail.com" target="_blank">lahpraaaas@gmail.com</a>
-</section>
 <hr>
+   <h1> Some things that bring me joy
    <h2>My Hobbies</h2>
    <table class="table-style1">
       <tr>
@@ -146,7 +141,7 @@
          <th>Hours/Week</th>
       </tr>
       <tr>
-         <td>Watching anime/Community</td>
+         <td>Watching anime/Community/Bob's Burgers</td>
          <td>During my freetime</td>
       </tr>
       <tr>
@@ -169,8 +164,8 @@
          <td>1997</td>
       </tr>
       <tr>
-         <td>Princess Mononoke</td>
-         <td>1997</td>
+         <td>Almost anything made by Studio Ghibli</td>
+         <td>1986-Present</td>
       </tr>
       <tr>
          <td>Oldboy</td>
@@ -183,7 +178,7 @@
  <h2>My Favorite Foods</h2>
  <ul class="list-style1">
    <li>Tteokbokki</li>
-   <li>Pho</li>
+   <li>Fried Chicken</li>
    <li>Papaya salad</li>
  </ul>
 </div>
@@ -192,24 +187,28 @@
  <ul class="list-style2">
    <li>Strawberry Calpico</li>
    <li>Pepsi</li>
-   <li>Earl Grey Milktea</li>
+   <li>Jasmine Earl Grey Milktea</li>
  </ul>
 </div>
 </div>
 <section class="video">
- <h2>My Favorite Video</h2>
+ <h2>And now a laugh break ...</h2>
  <video width="480" height="360" controls>
-    <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Zenitsu.mp4?raw=True">
+    <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Dad%20Joke.mp4?raw=True">
  </video>
-  <iframe src="https://www.youtube.com/embed/zGk-azQ0A2U" width="420" height="315" style="border:none;"></iframe>
-<label for="bio"> Have you enjoyed your visit:</label><label<br>
+  <video width="480" height="360" controls>
+    <source src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/Dad%20Joke.mp4?raw=True">
+ </video>
     <textarea id="bio" rows="4" cols="40"></textarea>
       <input type="submit" value="Submit">
       </form>
       <br><br>
 <section>  
 <a href="https://www.gmail.com/lahprasss"target="_blank">
-    <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" width="104" height="142" title="Picture Title"></a>
+    <img src="https://github.com/plsoukhavong-tech/Lah-Lair/blob/main/IMG_20251114_070702_932.webp?raw=true" alt="Lah" width="104" height="142" title="Lets Keep in Touch"></a>
+<section class="about">
+  <a href="mailto:lahpraaaas@gmail.com" target="_blank">lahpraaaas@gmail.com</a>
+</section>
 </section>
 </body>
 </html>
